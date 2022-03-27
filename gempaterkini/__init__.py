@@ -26,8 +26,6 @@ def ekstraksi_data():
         lokasi = None
 
         for res in result:
-            print(i, res)
-
             if i == 1:
                 magnitudo = res.text
             elif i == 2:
