@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="latestearthquake-indonesia.1",
-    version="0.1",
+    version="0.0.2",
     author="Wildan Aruman",
     author_email="wildan.aruman90@gmail.com",
     description="This package will get the latest earthquake from BMKG | Indonesian Agency for Meteorological, Climatological and Geophysics ",
