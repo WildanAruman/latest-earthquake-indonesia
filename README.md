@@ -10,10 +10,15 @@ Thisa package will use BeatifulSoup4 and Request, to produce output in the form 
 '''
 
 import gempaterkini
+
+
+
 if __name__ == '__main__':
-    print('Aplikasi utama')
-    result = gempaterkini.ekstraksi_data()
-    gempaterkini.tampilkan_data(result)
+    gempa_di_indeonesia = gempaterkini.GempaTerkini('https://bmkg.go.id')
+    print(f'Aplikasi utama menggunkan package yang memiliki deskripsi {gempa_di_indeonesia.description}')
+
+    gempa_di_indeonesia.tampilkan_keterangan()
+    gempa_di_indeonesia.run()
 
 '''
 
